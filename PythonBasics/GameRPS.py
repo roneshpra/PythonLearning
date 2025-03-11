@@ -14,10 +14,10 @@ elif user_choice == 'Paper' and computer_choice == 'Scissors' :
 elif user_choice == 'Rock' and computer_choice == 'Paper' :
     print("You LOSE !!") 
 elif user_choice == 'Rock' and computer_choice == 'Scissors' :
-    print("You LOSE !!") 
+    print("You WIN !!") 
 elif user_choice == 'Scissors' and computer_choice == 'Paper' :
     print("You LOSE !!") 
-elif user_choice == 'Scissors' and computer_choice == 'Scissors' :
+elif user_choice == 'Scissors' and computer_choice == 'Rock' :
     print("You LOSE !!")    
 else : #user_choice == 'Scissors' :
     print("You LOSE !!")
